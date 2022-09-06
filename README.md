@@ -19,8 +19,8 @@ This is a test portfolio i built to document my web progress
 
 ### Links
 
-- Solution URL: [Github url](https://github.)
-- Live Site URL: [live-site url]()
+- Solution URL: [Github url](https://github.com/Bill-Adepoju/Portfolio)
+- Live Site URL: [live-site url](https://bill-adepoju.github.io/Portfolio/)
 
 ## My process
 
