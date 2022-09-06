@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;;
+}
+
+.bill-img{
+    height: 10rem;
+    border-radius: 5rem;
+}
+
+.wid-logo{
+    width: 5rem;
+}
+
+.pen, .mag-glass{
+    height: 4rem;
+}
+
+.get-std-txt, .see-more-txt, .mid-link{ 
+    text-decoration: none;
+    color: white;
+}
+
+.work-card{
+    height: 12rem;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    position: relative;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .imagee {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+.mid-text {
+    background-color: white;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .testt:hover .work-card {
+    opacity: 0.3;
+  }
+  
+ .middle:hover {
+    opacity: 1;
+  }
+
+
+.clipboard{
+    background-image: url(../images/clipboard\ screenshot.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.faq-accordion{
+    background-image: url(../images/faq\ screenshot.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.three-preview{
+    background-image: url(../images/3preview\ screenshot.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.single-price{
+    background-image: url(../images/single\ price\ screenshot.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.stats-preview{
+    background-image: url(../images/stats-preview\ screenshot.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.social-proof{
+    background-image: url(../images/social-proof\ screenshot.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+}
+
+.see-more, .get-std-bttn{
+    border-radius: 20px;
+}
